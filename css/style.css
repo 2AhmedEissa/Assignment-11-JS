@@ -129,6 +129,7 @@ nav .navbar-brand .site-description {
 .temp-info .forecast.today .degree .num {
   font-size: 90px;
   margin-right: 30px;
+  padding-top: 20px;
 }
 
 .temp-info .forecast.today .location {
