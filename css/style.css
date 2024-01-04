@@ -262,7 +262,7 @@ form input[type="reset"] {
   }
 
   .temp-info .forecast .forecast-content .degree sup {
-    margin-top: 50px;
+    margin-top: -50px;
   }
 
   .temp-info .forecast.today .degree .num {
