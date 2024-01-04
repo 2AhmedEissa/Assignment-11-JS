@@ -261,6 +261,10 @@ form input[type="reset"] {
     width: 100%;
   }
 
+  .temp-info .forecast .forecast-content .degree sup {
+    margin-top: 30px;
+  }
+
   .temp-info .forecast.today .degree .num {
     font-size: 60px;
     margin-right: 10px;
