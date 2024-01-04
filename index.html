@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather</title>
+  <link rel="icon" href="img/favicon.ico">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg " id="nav">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">
+        <img src="img/logo.png" alt="" class="logo">
+        <div class="logo-type">
+          <h1 class="site-title">Weather</h1>
+          <small class="site-description">tagline goes here</small>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active homenav text-white m-3" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white m-3" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white m-3" href="#">Live Cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white m-3" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white m-3" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="main">
+    <div class="container">
+      <div class="search-bar">
+        <input class="search" type="text" placeholder="Enter a city" id="search">
+        <input class="find" type="button" value="Find" id="submit">
+      </div>
+      <div class="table" id="forecast">
+        <div class="container">
+          <div class="temp-info" id="temp-info">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <form action="#" class="subscribe-form">
+            <input type="text" placeholder="Enter your email to subscribe...">
+            <input type="submit" value="Subscribe">
+          </form>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <p class="footer-text">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/code.js"></script>
+</body>
+
+</html>
