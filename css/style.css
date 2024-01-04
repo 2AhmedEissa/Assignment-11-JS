@@ -264,7 +264,7 @@ form input[type="reset"] {
   .temp-info .forecast.today .degree .num {
     font-size: 60px;
     margin-right: 10px;
-    padding-top: 30px;
+    margin-bottom: 10px; 
   }
 
   .temp-info .forecast.today span {
