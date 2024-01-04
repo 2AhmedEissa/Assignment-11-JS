@@ -39,6 +39,27 @@ nav .navbar-brand .site-description {
 
 .nav-link {
   font-size: 14px;
+  transition: 0.3s ease;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #009ad8 !important;
+  border: 2px solid;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.main-link {
+  border: 2px solid;
+  font-size: 14px;
+  color: #009ad8 !important;
+  border: 2px solid;
+  border-radius: 30px;
 }
 
 .search-bar {
@@ -264,7 +285,7 @@ form input[type="reset"] {
   .temp-info .forecast.today .degree .num {
     font-size: 60px;
     margin-right: 10px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
   }
 
   .temp-info .forecast.today span {
